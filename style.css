@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+.player {
+    width: 320px;
+    background: #111;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+.album img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.song-info {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.song-info h3 {
+    font-size: 18px;
+}
+
+.song-info p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.progress-container input[type="range"] {
+    flex: 1;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.controls i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #bbb;
+    transition: 0.3s;
+}
+
+.controls i:hover {
+    color: #fff;
+}
+
+.play {
+    width: 55px;
+    height: 55px;
+    background: #ff4b2b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play i {
+    font-size: 22px;
+    color: #fff;
+}
